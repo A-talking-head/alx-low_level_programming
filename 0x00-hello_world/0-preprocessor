@@ -1,2 +1,2 @@
 #!/bin/bash
-input_file=$CFILE;cpp -E $input_file > output.c
+input_file=$CFILE;cpp -H $CFILE > c
