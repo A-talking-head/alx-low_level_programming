@@ -1,2 +1,2 @@
 #!/bin/bash
-input_file=$CFILE;cpp -H $CFILE > c
+CFILE="0-main.c"; cpp -H $CFILE > c
