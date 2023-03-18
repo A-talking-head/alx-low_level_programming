@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=$1; gcc -E $CFILE -o c
+input_file=$CFILE;cpp -E $input_file > output.c
