@@ -1,7 +1,0 @@
-#!/bin/bash
-
-[ -z "$CFILE" ] && { echo "Error: CFILE variable is not set."; exit 1; }
-[ ! -f "$CFILE" ] && { echo "Error: C file '$CFILE' does not exist."; exit 1; }
-
-cpp "$CFILE" c
-
